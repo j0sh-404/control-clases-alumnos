@@ -1,0 +1,18 @@
+.cuerpo-alumno{
+  position: absolute;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  top: 200px;
+  text-align: center;
+  margin: ;
+}
+.estilo-padre{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: black;
+    text-align: center;
+    justify-content: center;
+}

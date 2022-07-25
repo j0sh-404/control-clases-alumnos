@@ -1,0 +1,14 @@
+.fondo{
+    background-image: url("../recursos/fondo.jpg");
+    background-repeat: no-repeat;
+        min-height: 90%;
+        min-width: 800px;
+ 
+        /* Escalamiento proporcional */
+        width: 100%;
+        height: auto;
+ 
+        /* Posicionamiento */
+        position: fixed;
+        top: 0;
+}

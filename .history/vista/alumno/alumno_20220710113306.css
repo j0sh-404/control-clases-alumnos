@@ -1,0 +1,9 @@
+.cuerpo-alumno{
+  position: absolute;
+  top: 400px;
+}
+.estilo-padr{
+    position: relative;
+    width: 100%;
+    height: auto;
+}

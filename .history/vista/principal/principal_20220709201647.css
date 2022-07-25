@@ -1,0 +1,17 @@
+body {
+	height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+html{
+	height: 100%;
+}
+.contenedor{
+    background-image: url("../recursos/fondo.jpg");                      /* <------ */
+
+          height: 100%;
+         background-size:     cover;                      /* <------ */
+        background-repeat:   no-repeat;
+        background-position: center center;
+
+}

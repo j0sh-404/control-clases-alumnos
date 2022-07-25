@@ -1,0 +1,92 @@
+<DOCTYPE html>
+    <html lang="es">
+        <head>
+            <meta charset="utf-8"/>
+            <title>Alumnos</title>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+            <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+            <link rel="stylesheet" href="./alumno.css">
+            <link rel="stylesheet" href="../../vista/principal/principal.css">
+        </head>
+        <body>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../principal/principal.html">Control de alumnos</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../alumno/alumno.html">Alumnos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Grupos</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Administrar
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item"  href="#" data-bs-toggle="modal" data-bs-target="#modalClase">Agregar Clase</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                      </li>
+                    </ul>
+                
+                  <button class="btn btn-outline-danger" type="submit">Salir</button>
+                 </div>
+                </div>
+              </nav>
+
+              <div class="contenedor d-flex justify-content-center">
+                   <div class="col-sm-12 d-flex justify-content-center align-items-center" style="width: 60%;">
+                        <!--<table class="table" id="tablaAlumno">
+                            <thead>
+                              <tr>
+                                <th scope="col">Nombre</th>
+                                <th scope="col">Apellido</th>
+                                <th scope="col">Grupo</th>
+                                <th scope="col">Opcion</th>
+                              </tr>
+                            </thead>
+                            <tbody id="mostrarAlumnos">
+                              
+                            </tbody>
+                          </table>-->
+                          <div class="card" style="width: 124rem;" id>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">Nombre Alumno@: <strong id="NombreAlumno"></strong></li>
+                              <li class="list-group-item">Apellidos:</li>
+                              <li class="list-group-item">Correo:</li>
+                              <li class="list-group-item">Grupo:</li>
+                            </ul>
+                            <div class="card-footer">
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                          Clases
+                                        </button>
+                                      </h2>
+                                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body" id="detalleMostrarClases">
+                                            <!--clases-->
+                                        </div>
+                                      </div>
+                                    </div>
+                              </div>
+                            </div>
+                          </div>
+                   </div>
+                   </div>
+                </div>
+              </div>
+            
+            <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+            <script src="../../controlador/alumno/alumno.js"></script>
+        </body>
+    </html>

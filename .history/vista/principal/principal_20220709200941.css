@@ -1,0 +1,6 @@
+.fondo{
+    background-image: url("../recursos/fondo.jpg");
+     background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+}

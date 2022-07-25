@@ -1,0 +1,12 @@
+.cuerpo-alumno{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 50px;
+  background: rgba(0,100,3, 0.5);
+}
+.estilo-padre{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
